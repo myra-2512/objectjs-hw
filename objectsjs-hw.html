@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo1"></p>
+    <script>
+        function sumAll() {
+            var sum = 0;
+            for (i = 0; i < arguments.length; i++) {
+                sum +=arguments[i];
+                }
+            return sum
+            }
+           
+        
+        document.getElementById("demo1").innerHTML = sumAll
+        (12, 45, 78, 3, 96, 15)
+
+        
+    </script>
+
+    <script>
+
+        var value = Math.cos(45);
+        document.write( value +"<br>");
+
+        
+        var value1 = Math.sin(45);
+         document.write( value1 + "<br>");
+
+        var value2 = Math.tan(45);
+        document.write( value2 + "<br>");
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
